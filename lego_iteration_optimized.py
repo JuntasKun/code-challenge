@@ -20,7 +20,7 @@ def main():
 
 def count_pillars(targetSum):
     # First of all, let's create a list to store our counts of sums in it
-    row = [0 for i in range(targetSum + 1)]
+    row = [0] * (targetSum + 1)
     # First element of the list will be initialized to 0 since with 0 elements we can create 1 sum of 0
     row[0] = 1
     # Next let's set i lor loop to be equal to 1 and it will represent one as lowest number as well
